@@ -1,0 +1,8 @@
+[2016-08-13 19:28:51] app.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /var/www/vendor/symfony/http-kernel/EventListener/RouterListener.php line 125 {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0): No route found for \"GET /\" at /var/www/vendor/symfony/http-kernel/EventListener/RouterListener.php:125, Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException(code: 0): No routes found for \"/\". at /var/www/vendor/symfony/routing/Matcher/UrlMatcher.php:98)"} []
+[2016-08-13 19:28:51] app.DEBUG: < 404 [] []
+[2016-08-13 19:31:44] app.INFO: Matched route "{route}". {"route":"GET_","route_parameters":{"_controller":"InCRM\\App\\Controller\\IndexController::indexAction","_route":"GET_"},"request_uri":"http://10.100.199.201/","method":"GET"} []
+[2016-08-13 19:31:44] app.DEBUG: > GET / [] []
+[2016-08-13 19:31:44] app.DEBUG: < 200 [] []
+[2016-08-13 21:06:25] app.INFO: Matched route "{route}". {"route":"GET_","route_parameters":{"_controller":"App\\Controller\\IndexController::indexAction","_route":"GET_"},"request_uri":"http://10.100.199.201/","method":"GET"} []
+[2016-08-13 21:06:25] app.DEBUG: > GET / [] []
+[2016-08-13 21:06:25] app.DEBUG: < 200 [] []
