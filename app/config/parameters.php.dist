@@ -2,33 +2,17 @@
 
 $config = [];
 
-// Doctrine Configs.
-$config['doctrine'] = [
-    'dbal' => [
-        'db.options' => [
-            'driver' => 'pdo_mysql',
-            'host' => 'localhost',
-            'dbname' => 'incrm',
-            'user' => 'root',
-            'password' => ',
-            'charset' => 'utf8',
-            'driverOptions' => [1002 => 'SET NAMES utf8'],
-        ],
-    ],
-    'orm' => [
-        "orm.em.options" => [
-            "mappings" => [
-                [
-                    "type" => "yml",
-                    "namespace" => "Entity",
-                    "path" => realpath(__DIR__ . "/../config/doctrine"),
-                ],
-            ],
-        ],
-    ]
-];
-
 // Monolog Configs.
 $config['monolog'] = [
     'monolog.logfile' => __DIR__ . '/../../var/logs/prod.log',
+];
+
+$config['console'] = [
+    'console.name' => 'In CRM Console Tool',
+    'console.version' => '0.1.0',
+    'console.project_directory' => __DIR__ . "/.."
+];
+
+$config['translator'] = [
+    'translator.domains' => []
 ];
