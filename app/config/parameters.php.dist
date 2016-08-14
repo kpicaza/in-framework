@@ -8,7 +8,7 @@ $config['monolog'] = [
 ];
 
 $config['console'] = [
-    'console.name' => 'In CRM Console Tool',
+    'console.name' => 'In Framework Console Tool',
     'console.version' => '0.1.0',
     'console.project_directory' => __DIR__ . "/.."
 ];

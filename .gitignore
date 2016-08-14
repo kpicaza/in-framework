@@ -1,4 +1,5 @@
 /vendor
 /app/config/parameters.php
 /composer.lock
+/bin/phpspec
 *~
