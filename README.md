@@ -33,6 +33,7 @@ From source:
 
     git clone https://github.com/kpicaza/in-framework.git project-name
     cd project-name
+    composer install
     cp app/config/parameters.php.dist app/config/parameters.php
     phpunit
 
